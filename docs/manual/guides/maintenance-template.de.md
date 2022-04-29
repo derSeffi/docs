@@ -11,6 +11,14 @@ tags:
 
 ## Wartungsmodus aktivieren
 
+{{< version "4.13" >}}
+
+Ab Contao 4.13 gibt es den Seitentyp "503 Dienst nicht verfügbar" (https://docs.contao.org/manual/de/layout/seitenstruktur/seiten-als-zentrale-elemente/#seitentypen). Nach der Anlage einer Seite dieses Typs im Seitenbaum lässt sich diese nach den individuellen Wünschen und Vorstellungen gestalten. Diese Seite wird aufgerufen, wenn sich eine Root-Seite im Wartungsmodus befindet.
+
+{{% notice note %}}
+Bis Version "4.9" konnte das Wartungstemplate über Anpassung eines TWIG-Templates erfolgen. Dies ist auch in der Version 4.13 weiterhin möglich, sofern nicht mit dem Seitentyp "503" gearbeitet werden soll.
+{{% /notice %}}
+
 Der Wartungsmodus lässt sich über den Menüpunkt Systemwartung aktivieren. Sobald du dich aus dem Backend abgemeldet hast und deine Website im Frontend aufrufst, sieht das dann so aus:
 
 ![Contao Wartungsmodus](/de/guides/images/de/maintenance/wartungsmodus.jpg?classes=shadow)
