@@ -23,6 +23,13 @@ aufrufen.
 Dieser Modus ist dann sinnvoll, wenn größere Umbauarbeiten im Backend vorgenommen werden müssen und die Auswirkungen
 im Frontend nicht sofort sichtbar sein sollen.
 
+{{< version "4.13" >}}
+
+Der Wartungsmodus im Frontend kann ab 4.13 pro Root-Seite aktiviert werden (Seitenstruktur/Website-Einstellungen). Der systemweite Wartungsmodus umfasst dann auch das Backend und kann per Contao Manager oder Kommandozeile (https://docs.contao.org/manual/de/cli/maintenance-mode/) aktiviert werden. 
+
+![den-wartungsmodus-aktivieren](https://user-images.githubusercontent.com/104627930/165950145-75095baa-15f2-4d80-ab68-a78e0767b79f.png?classes=shadow)
+
+Nach erfolgter Aktivierung ist das Icon vor dem Seitenbaum rot eingefärbt.
 
 ## Crawler
 
